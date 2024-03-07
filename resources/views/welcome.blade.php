@@ -22,7 +22,7 @@
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light p-3 fixed-top">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="/">
         <img src="assets/images/im-logo-sada-kumham.png" height="60" width="150" alt=""></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -30,24 +30,24 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">DATASET</a>
+            <a class="nav-link active" aria-current="page" href="/dataset">DATASET</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="#">VISUALISASI DATA</a>
+            <a class="nav-link active" href="/visual">VISUALISASI DATA</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="#">TENTANG SADA KUMHAM</a>
+            <a class="nav-link active" href="/about">TENTANG SADA KUMHAM</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="#">DASHBOARD EXECUTIVE</a>
+            <a class="nav-link active" href="https://de.kemenkumham.go.id/login">DASHBOARD EXECUTIVE</a>
           </li>
         </ul>
       </div>
 
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand">
         <img src="assets/images/im-logo-satudata.png" height="70" width="110" alt=""></a>
 
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand">
         <img src="assets/images/im-tagline-kumhampasti.png" height="70" width="70" alt=""></a>
 
     </div>
@@ -278,10 +278,10 @@
                 <h3 class="sp-module-title text-light">LINK PENELUSURAN</h3>
                 <div class="sp-module-content me-10">
                   <ul class="other-menu-web py-3">
-                    <li class="item-dataset"><a href="#" style="color: #FFFFFF;">DATASET</a></li>
-                    <li class="item-vis-data"><a href="#" style="color: #FFFFFF;" target="_blank" rel="noopener noreferrer">VISUALISASI DATA</a></li>
-                    <li class="item-tentang-sada"><a href="#" style="color: #FFFFFF;" target="_blank" rel="noopener noreferrer">TENTANG SADA KUMHAM</a></li>
-                    <li class="item-dash-exe"><a href="#" style="color: #FFFFFF;" target="_blank" rel="noopener noreferrer">DASHBOARD EXECUTIVE</a></li>
+                    <li class="item-dataset"><a href="/dataset" style="color: #FFFFFF;">DATASET</a></li>
+                    <li class="item-vis-data"><a href="/visual" style="color: #FFFFFF;">VISUALISASI DATA</a></li>
+                    <li class="item-tentang-sada"><a href="/about" style="color: #FFFFFF;">TENTANG SADA KUMHAM</a></li>
+                    <li class="item-dash-exe"><a href="https://de.kemenkumham.go.id/login" style="color: #FFFFFF;">DASHBOARD EXECUTIVE</a></li>
                     <li class="item-ofc-kemenkumham"><a href="https://www.kemenkumham.go.id/" style="color: #FFFFFF;">OFFICIAL WEBSITE KEMENKUMHAM</a></li>
                   </ul>
                 </div>
